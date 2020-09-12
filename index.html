@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone_MacOS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./assets/mac-logo.png" alt="" />
+        </div>
+        <div class="date-time">
+          <span class="clock"></span>
+        </div>
+        <div class="config">
+          <button>
+            <i data-feather="link-2"></i>
+            <i data-feather="volume-2"></i>
+            <i data-feather="power"></i>
+          </button>
+        </div>
+        <div class="pop-up">
+          <div class="content">
+            <div class="input-group">
+              <i data-feather="volume-2"></i>
+              <input type="range" />
+            </div>
+            <div class="input-group">
+              <i data-feather="sun"></i>
+              <input type="range" />
+            </div>
+            <div class="connection">
+              <i data-feather="code"></i>
+              Conexão
+              <i data-feather="chevron-right"></i>
+            </div>
+            <div class="options">
+              <div class="settings">
+                <i data-feather="settings"></i>
+                Configurações
+              </div>
+              <div class="lock">
+                <i data-feather="lock"></i>
+                Bloquear
+              </div>
+              <div class="power">
+                <i data-feather="power"></i>
+                Desligar / encerrar sessão
+                <i data-feather="chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="desktop">
+      <div class="item">
+        <img src="./assets/google-docs.png" alt="" />
+      </div>
+      <div class="item">
+        <img src="./assets/telegram.png" alt="" />
+      </div>
+      <div class="item">
+        <img src="./assets/youtube.png" alt="" />
+      </div>
+      <div class="item">
+        <img src="./assets/app-store.png" alt="" />
+      </div>
+      <div class="item">
+        <img src="./assets/apple-music.png" alt="" />
+      </div>
+    </div>
+
+    <footer>
+      <ul>
+        <li>
+          <img src="./assets/arquivos.png" alt="Arquivos" />
+        </li>
+        <li>
+          <img src="./assets/mozilla.png" alt="Mozilla" />
+        </li>
+        <li>
+          <img src="./assets/vscode.png" alt="VS Code" />
+        </li>
+        <li>
+          <img src="./assets/insomnia.png" alt="Insomnia" />
+        </li>
+        <li class="bash-open">
+          <img src="./assets/terminal.png" alt="Terminal" />
+        </li>
+        <li class="menu">
+          <img src="./assets/menu.png" alt="Menu" />
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Searchbar visible on logo click -->
+    <div class="search">
+      <i data-feather="search"></i>
+      <input type="search" placeholder="Digite para pesquisar" />
+    </div>
+    <div class="container"></div>
+
+    <!-- Terminal -->
+    <div class="bash">
+      <header>
+        <div class="dots">
+          <span class="bash-close"></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p>terminal ─ bash ─ 94x28</p>
+      </header>
+      <textarea autofocus name="textarea" rows="10" cols="50"></textarea>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
