@@ -27,9 +27,10 @@ Para o desenvolvimento desta UI foram utilizadas as seguintes tecnologias:
 
 Seu desenvolvimento foi realizado basicamente em uma aplicação em HTML, CSS e JavaScript puro.
 ***
-### Demo
 
+![PRINT_1](https://github.com/felipebacelo/Clone_MacOS/blob/master/assets/image-1.png)
 
+![PRINT_2](https://github.com/felipebacelo/Clone_MacOS/blob/master/assets/image-2.png)
 
 ***
 ### Licenças
