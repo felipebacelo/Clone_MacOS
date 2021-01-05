@@ -1,8 +1,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/felipebacelo/Clone_MacOS?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/felipebacelo/Clone_MacOS?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/felipebacelo/Clone_MacOS?style=for-the-badge)
-![GitHub All Releases](https://img.shields.io/github/downloads/felipebacelo/Clone_MacOS/total?style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/felipebacelo?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/felipebacelo/Clone_MacOS?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/felipebacelo/Clone_MacOS?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/felipebacelo/Clone_MacOS?style=for-the-badge)
 
 # Clone MacOS
 
